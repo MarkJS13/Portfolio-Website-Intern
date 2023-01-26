@@ -1,0 +1,389 @@
+@media only screen and (max-width: 1180px) {
+    #home {
+        padding: 0 70px;
+        gap: 0;
+    }
+
+    .hero {
+        gap: 40px;
+    }
+
+    .hero .my-details h1{
+        font-size: 60px;
+    }
+
+    
+    .about {
+        gap: 90px;
+
+    }
+
+    .about .about-me-text p{
+        font-size: 20px;
+    }
+  
+    .about-left {
+        gap: 0;
+    }
+    
+}
+
+
+@media only screen and (max-width: 902px) {
+
+    #home {
+        padding: 0 40px;
+    }
+
+    .hero .my-details h1{
+        font-size: 55px;
+    }
+    .hero .my-details h3{
+        font-size: 22px;
+    }
+
+
+    .project-section .project-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .project .title {
+        padding: 40px 0;
+    }
+
+    .about {
+        gap: 40px;
+        grid-template-columns: 1fr 230px;
+    }
+    
+    
+
+    .about-left {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    
+    .about .about-me-text p{
+        font-size: 18px;
+    }
+    
+    .tech-stacks {
+        padding-top: 25px;
+    }
+    
+    .tech-stacks h1{
+        font-size: 21px;
+    }
+    
+    .tech-stacks  .stacks {
+        row-gap: 3px;
+    }
+    
+    .tech-stacks  .stacks p {
+        font-size: 16px;
+    }
+
+ 
+    
+}
+
+
+
+@media only screen and (max-width: 761px) {
+    .menu li{
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .sidebar {
+        display: flex;
+    }
+
+    .sidebar-wrapper {
+        display: block;
+    }
+
+    #home {
+        padding: 0 35px;
+        gap: 80px;
+    }
+
+    .hero {
+    }
+
+    .hero .my-details h1{
+        font-size: clamp(2.875rem, 2.4063rem + 1.5vw, 3.25rem);
+    }
+
+    .hero .contact-logo i {
+        font-size: 35px;
+    }
+    .hero .more {
+        font-size: 17px;
+    }
+
+
+    .about {
+        height: auto;
+        grid-auto-flow: row;
+        gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 260px;
+    }
+
+    
+    .about-left {
+        gap: 10px;
+    }
+    
+    .about .about-right {
+        display: flex;
+        justify-content: center;
+    }
+    .about .about-right img {
+        
+        width: 200px;
+        height: 200px;
+        
+    }
+    
+    .contact {
+        gap: 30px;
+        padding-top: 60px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 639px) {
+    :root {
+        --h1-text: clamp(2.375rem, 2.0625rem + 1vw, 2.625rem);;
+        --p-text: clamp(1.125rem, 0.9688rem + 0.5vw, 1.25rem);
+    }
+
+
+    
+    .menu-sidebar {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 0;
+    }
+    
+    .menu-sidebar li {
+        font-size: 22px;
+
+    }
+    
+    
+    .logo-sidebar {
+        font-size: 24px;
+    }
+    
+    
+    .footer-sidebar {
+        font-size: 12px;
+
+    }
+    
+
+    .nav-bar .logo a {
+        font-size: 17px;
+    }
+
+    .hamburger-menu i {
+        font-size: 24px;
+    }
+
+    #home {
+        padding: 0 17px;
+        gap: 25px;
+    }
+
+    .hero {
+        gap: 20px;
+     }
+    
+
+    .hero .my-details h1 {
+        font-size: var(--h1-text);
+        
+    }
+
+    .hero .my-details h3{
+        font-size: var(--p-text);
+       
+
+    }
+
+    .hero .contact-logo {
+        gap: 20px;
+    }
+    
+    .hero .contact-logo i {
+        font-size: 30px;
+    }
+
+    .hero .more {
+        display: flex;
+        gap: 40px;
+        font-size: 16px;
+    }
+    
+    .hero .more p i {
+        padding-left: 5px;
+    }
+    .about {
+        gap: 50px;
+        height: 100%;
+        padding-bottom: 60px;
+    }
+    
+    .about .title {
+        gap: 20px;
+        padding: 20px 0px;
+    }
+    
+    
+    .about .title h1 {
+        font-size: var(--h1-text);
+        
+    }
+
+    .about .title i {
+        font-size: var(--h1-text);
+    }
+
+    .about-left {
+        gap: 0;
+    }
+    
+    .about .about-me-text p{
+        font-size: var(--p-text);
+    }
+
+    .tech-stacks {
+        padding-top: 0;
+    }
+    
+    .tech-stacks h1{
+        font-size: 15px;
+    }
+
+    .tech-stacks  .stacks {
+        row-gap: 0px;
+    }
+    
+    .tech-stacks  .stacks p {
+        font-size: 13px;
+    }
+
+    .project {
+        padding-bottom: 90px;
+    }
+
+    .project .title {
+        padding: 30px 0;
+        gap: 25px;
+    }
+    
+    
+    .project .title h1 {
+        font-size: var(--h1-text);
+    }
+    
+    .project .title i {
+        font-size: var(--h1-text);
+    }
+
+    .project-section .project-block{
+        gap: 20px;
+    }
+
+    .project-section .project-block .left{
+        gap: 10px;
+    } 
+    .project-section .project-block .left h1{ 
+        font-size: 28px;
+    
+    }
+    
+    .project-section .project-block .left p{ 
+        font-size: var(--p-text);
+    
+    }
+
+    .hashtags {
+        font-size: var(--p-text);
+
+    }
+
+    .demo {
+        gap: 20px;
+    
+    }
+
+    .demo a {
+        font-size: var(--p-text);
+    }
+    .demo a i{
+        padding-left: 3px;
+    }
+
+
+
+
+    .contact {
+        gap: 25px;
+        height: 100%;
+        padding: 0;
+       
+    }
+
+    .contact .contact-me h1 {
+        font-size: var(--h1-text);
+    }
+
+    .contact .contact-me p {
+        font-size: var(--p-text);
+    }
+
+    .icon-main i {
+        font-size: 30px;
+    }
+
+        
+    .contacts-container {
+        gap: 20px;
+    }
+
+
+    .contact-block h1 {
+        font-size: 15px;
+    }
+
+    .contact-block p {
+        font-size: 13px;
+    }
+
+    .contact-block i {
+        padding-left: 3px;
+    
+    }
+
+
+    footer {
+    font-size: 13px;
+
+    }
+
+}
